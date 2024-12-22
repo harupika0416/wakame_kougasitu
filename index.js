@@ -125,7 +125,7 @@ app.post('/login', (req, res) => {
         if (password === 'ohana') {
             return res.redirect('https://ohuaxiehui.webnode.jp');
         } else {
-            res.render('login', { error: 'パスワードが間違っています。もう一度お試しください。' });
+            res.render('login', { error: 'ぱすわーどがちがいます。もういちどためしてみてください。' });
         }
     }
 });
